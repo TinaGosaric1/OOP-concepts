@@ -15,7 +15,8 @@ public class Main {
         myRoom.getLamp().turnOn();
 
         Account myAccount1 = new Account();
-        Account myAccount2 = new Account("TG","1213",150.0);
+        Account myAccount2 = new Account();
+        Account myAccount3 = new Account("TG","1213",150.0);
         System.out.println(Account.getNumberOfAccounts());
     }
 }
